@@ -1,0 +1,160 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+body{
+  background-color: black;
+}
+
+.main-wrapper{
+  margin: 30px auto 0;
+  width: auto;
+  text-align: center;
+}
+
+.main-title{
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  font-size: 3.2em;
+  color: grey;
+  text-shadow: 1px 1px 1px white;
+}
+
+.board-wrapper{
+  position: relative;
+  width:1000px;
+  margin: -100px auto 0;
+}
+
+.board{
+  position: absolute;
+  right: 25%;
+  top:200px;
+
+}
+
+.key{
+  display: inline-block;
+  transition: all ease-in-out .042s;
+  position: absolute;
+  background: #eaeaea;
+  font-size: 1.5em;
+  height: 32px;
+  width: 32px;
+  text-align: center;
+  border-radius: 4px;
+  border: 2px solid #aaa;
+  color: #444;
+  box-shadow: 1px 1px 1px rgba(0,0,0,.65);
+  z-index: 2;
+}
+
+.key.C{
+  top: 350px;
+  right:873px;
+}
+
+.key.Cs{
+  top: 275px;
+  right:848px;
+}
+
+.key.D{
+  top: 350px;
+  right:825px;
+}
+
+.key.Ds{
+  top: 275px;
+  right:799px;
+}
+
+.key.E{
+  top: 350px;
+  right:776px;
+}
+
+.key.F{
+  top: 350px;
+  right:731px;
+}
+
+.key.Fs{
+  top: 275px;
+  right:706px;
+}
+
+.key.G{
+  top: 350px;
+  right:683px;
+}
+
+.key.Gs{
+  top: 275px;
+  right:659px;
+}
+
+.key.A{
+  top: 350px;
+  right:636px;
+}
+
+.key.As{
+  top: 275px;
+  right:610px;
+}
+
+.key.B{
+  top: 350px;
+  right:587px;
+}
+
+.playing{
+  transform: scale(2)
+}
+
+.main-key-wrapper{
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 700px;
+  background: white;
+  width: 250px;
+  z-index: 3;
+}
+
+.main-key-wrapper > h2 {
+  color: black;
+  font-family: 'Handlee';
+  margin-bottom: 25px;
+  border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.key-map-list{
+  list-style: none;
+  text-align: left;
+}
+
+.key-map-list > li{
+  margin-bottom: 25px;
+}
+
+.key-code{
+  color: #444;
+  background-color: #eaeaea;
+  font-size: 1.25em;
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: 3px solid #aaa;
+}
+
+.key-sound{
+  font-size: 1.2em;
+  margin-left: 10px;
+  font-family: 'Handlee';
+  vertical-align: middle;
+}
+
+.board{
+  border: 2px solid white;
+
+}
